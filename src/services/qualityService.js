@@ -2,7 +2,7 @@
 // Quality Service - خدمات إدارة الجودة
 // ======================================
 
-import { supabase } from '../api';
+import { supabase } from './api';
 
 class QualityService {
   // إحصائيات لوحة التحكم

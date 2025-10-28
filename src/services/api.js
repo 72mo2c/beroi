@@ -3,6 +3,14 @@
 // جاهزة للربط مع API خارجي
 // ======================================
 
+// Supabase Client
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.REACT_APP_SUPABASE_URL || 'https://your-project.supabase.co';
+const supabaseKey = process.env.REACT_APP_SUPABASE_ANON_KEY || 'your-anon-key';
+
+export const supabase = createClient(supabaseUrl, supabaseKey);
+
 // رابط الـ API الأساسي - يتم تغييره عند الربط مع الباك إند
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
 
