@@ -16,6 +16,7 @@ const QualityControl = () => {
   const [statusFilter, setStatusFilter] = useState('الكل');
   const [showForm, setShowForm] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
+  const [selectedRecord, setSelectedRecord] = useState(null);
   const [currentForm, setCurrentForm] = useState({
     type: 'inspection',
     title: '',

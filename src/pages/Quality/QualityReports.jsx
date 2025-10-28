@@ -10,7 +10,11 @@ import {
   FaFileExcel,
   FaBarChart,
   FaPieChart,
-  FaTrendingUp
+  FaTrendingUp,
+  FaCheckCircle,
+  FaUsers,
+  FaClipboardCheck,
+  FaExclamationTriangle
 } from 'react-icons/fa';
 import Card from '../../components/Common/Card';
 import Button from '../../components/Common/Button';
